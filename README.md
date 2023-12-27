@@ -11,3 +11,19 @@ I improved a couple of things to help understanding the structure, like:
 - added visualisation plot to see how training improves
 
 Though, there is still room for improvement, like encapsulating layer results in the all the forward functions (memory-wise this will gain some performance). 
+
+# Additional Resources
+
+As a good starting point to understand how deep learning works with PyTorch, I suggest this 1-day course by Daniel Bourke: 
+
+- https://www.youtube.com/watch?v=Z_ikDlimN6A
+
+To understand how the mathematics behind Large Language Models work, there is one great resource:
+
+- https://flyte.org/blog/getting-started-with-large-language-models-key-things-to-know
+
+The following resources describes how transformers work
+
+- https://e2eml.school/transformers.html
+- http://jalammar.github.io/illustrated-transformer/
+- https://ig.ft.com/generative-ai/
