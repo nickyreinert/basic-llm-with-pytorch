@@ -10,7 +10,11 @@ I improved a couple of things to help understanding the structure, like:
 - improved optimisation loop (train, loss calculation, testing, loss calculation)
 - added visualisation plot to see how training improves
 
-Though, there is still room for improvement, like encapsulating layer results in the all the forward functions (memory-wise this will gain some performance). 
+## Todo
+
+Though, there is still room for improvement, like 
+- encapsulating layer results in the all the forward functions (memory-wise this will gain some performance)
+- actually implementing batch-wise training, right now the batch size does not really matters, as we train on one batch each epoch
 
 # COLAB
 You can find the notebook in Google's Colab: 
