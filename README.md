@@ -12,6 +12,16 @@ I improved a couple of things to help understanding the structure, like:
 
 Though, there is still room for improvement, like encapsulating layer results in the all the forward functions (memory-wise this will gain some performance). 
 
+# COLAB
+You can find the notebook in Google's Colab: 
+
+https://drive.google.com/file/d/1qnXidqmzZUYt-1MDyZJEHABKQaatMY-7/view?usp=sharing
+
+If you want to run the notebook for your self, you need to provide your own data. To do this just change those values:
+
+    source_data_path = "drive/MyDrive/Colab Notebooks/data"
+    source_data = "text.txt"
+
 # Additional Resources
 
 As a good starting point to understand how deep learning works with PyTorch, I suggest this 1-day course by Daniel Bourke: 
